@@ -1,0 +1,357 @@
+
+  
+*{
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+  
+    
+}
+.navbar{
+    background: crimson;
+    position: sticky;
+    display: flex;
+    height: 60px;
+    width: cover;
+    color: #fff;
+}
+.box{
+    width: cover;
+    height: 600px;
+    padding: 40px 60px;
+
+
+    
+}
+.logo{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'poppins'sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    padding-right: 30px;
+    padding: 0 100px;
+}
+.logo span{
+    color: aqua;
+}
+.logo ul li{
+    color: white;
+    display: inline-block;
+    padding-left: 150px;
+    
+}
+.logo ul li a{
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #fff;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.logo ul li a:hover{
+    color: greenyellow;
+}
+a:is(:link, :active, :visited).active{
+    color: #fff;
+    background-color: black;
+}
+@media only screen and (max-width: 960px) {
+    .logo{
+        padding-left: 0;
+    }
+    .logo ul li{
+        padding-left: 100px;
+        margin: 0;
+    }
+
+}
+@media only screen and (max-width: 760px) {
+    .logo{
+        padding-left: 0;
+        font-size: 30px;
+    }
+    .logo ul li{
+        padding-left: 7px;
+        margin-right: 0;
+        padding-top: 30px;
+    }
+    .logo ul li a{
+        font-size: 12px;
+    }
+
+}
+@media only screen and (max-width: 560px) {
+    .logo{
+        padding-left: 0;
+        font-size: 25px;
+    }
+    .logo ul li{
+        padding-left: 5px;
+        margin-right: 0;
+        padding-top: 30px;
+    }
+    .logo ul li a{
+        font-size: 10px;
+    }
+}
+.mid{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    width: cover;
+    position: relative;
+    height: auto;
+}
+
+
+
+
+.text-1{
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
+}
+.text-1 span{
+    color: rgba(255, 0, 0, 0.788);
+}
+.text-2{
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.text-3{
+    color: aqua;
+    text-align: center;
+}
+
+.copyrights{
+    background: grey;
+}
+.small{
+    padding-left: 20px;
+}
+.img-1{
+    height: 20px;
+}
+.contact{
+    padding-top: 25px;
+    padding-left: 5px;
+}
+.cc{
+    font-size: 23px;
+    border-bottom: 2px solid black;
+}
+.social-media{
+    padding-top: 16px;
+    margin-left: 10px;
+    padding-left: 12px;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.social-icons{
+    padding-top: 30px;
+    color: blue;
+    transition: 0.1s;
+}
+.social-icons:hover{
+    color: #aaa;
+    text-decoration: none;
+}
+.ss-media{
+    color: red;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.ss-media:hover{
+    color: rgba(255, 0, 0, 0.76);
+}
+.email{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.here{
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'poppins'sans-serif;
+}
+.cnn{
+    height: 95vh;
+    width: cover;
+    background: url(images/3334896.jpg);
+}
+.container{
+    height: 95vh;
+    position: relative;
+    width: cover; margin: 0 95px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+}
+.hhh{
+    margin: 0 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+.comment{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-right: 35px;
+}
+.con{
+    padding: 15px;
+    align-items: center;
+    background: url(images/pexels-lil-artsy-3750768.jpg);
+    height: 90vh;
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+}
+.con h1{
+    margin-top: 25px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: crimson;
+    border-bottom: 3px solid salmon;
+}
+.con p{
+    text-align: center;
+    margin: 50px;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+.p{
+    color: aqua;
+    padding-right: 20px;
+}
+.big{
+    margin-top: 30px;
+    text-align: center;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.str{
+    background: #aaa;
+    height: cover;
+    width: cover;
+    align-items: center;
+    margin: 0 80px;
+    font-weight: 200;
+    font-family: 'poppins',sans-serif;
+}
+.story{
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    text-align: center;
+}
+.bn{
+    color: #fff;
+    background: blue;
+    border-radius: 5px;
+    transition: 0.1s;
+    margin-top: 30px;
+}
+.bn:hover{
+    color: #aaa;
+}
+.copyright{
+    height: 5hv;
+    background: gray;
+    color: #fff;
+    display: flex;
+}
+.copyright img{
+    height: 5vh;
+}
+.copyright p{
+    margin-left: 5px;
+    margin-top: 9px;
+}
+.sml{
+    float: left;
+    margin-top: 11px;
+    margin-left: 100px;
+}
+.share{
+    
+    padding-top: 30px;
+    margin-left: 700px;
+}
+.ssh{
+    margin-top: 30px;
+}
+.comment{
+    margin-top: 50px;
+}
+.comment h2{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.comment a{
+    margin-left: 15px;
+    margin-top: 7px;
+}
+.catch{
+    color: red;
+}
+.head{
+    margin-bottom: 10px;
+    text-align: center;
+    color: aqua;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'poppins',sans-serif;
+    margin-top: 10px;
+    
+}
+.one {
+    margin-bottom: 16px;
+}
+.two {
+    margin-bottom: 16px;
+}
+.three {
+    margin-bottom: 16px;
+}
+.four {
+    margin-bottom: 16px;
+}
+.five {
+    margin-bottom: 16px;
+}
+.six{
+    margin-bottom: 16px;
+}
+.seven {
+    margin-bottom: 16px;
+}
+.tip p{
+    margin: 10px 10px;
+    font-weight: 300;
+    font-family: 'poppins',sans-serif;
+}
+.tip h3{
+    font-weight: 300;
+    margin-top: 10px;
+    color: aquamarine;
+}
+.tp{
+    float: right;
+    background: #aaa;
+    width: cover;
+}
