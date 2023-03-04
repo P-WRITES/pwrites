@@ -98,7 +98,87 @@ a:is(:link, :active, :visited).active{
     .logo ul li a{
         font-size: 10px;
     }
+    .str{
+        margin: 0;
+    }
 }
+@media only screen and (max-width: 420px) {
+    .logo{
+        padding-left: 0;
+        font-size: 20px;
+        margin-right: 4px;
+    }
+    .logo ul li{
+        margin-right: 0; 
+        float: left;
+        padding-top: 30px;
+        margin-left: 0;
+        margin-top: 10px;
+
+    }
+    .logo ul li a{
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 441px) {
+    .logo{
+        padding-left: 0;
+        font-size: 26px;
+    }
+    .logo ul li{
+        margin-right: 1px;
+        font-size: 18px; 
+        padding-top: 15px;
+        display: inline;
+        margin-top: 30px;
+        
+    }
+    .logo ul li a{
+        font-size: 8px;
+    }
+
+}
+@media only screen and (max-width: 420px) {
+    .logo{
+        padding-left: 0;
+        font-size: 23px;
+    }
+    .logo ul li{
+        margin-right: 7px;
+        font-size: 10px; 
+        padding-top: 10px;
+        margin-left: 78px;
+        display: inline;
+        margin-top: 10px;
+        
+    }
+    .logo ul li a{
+        font-size: 8px;
+    }
+
+}
+@media only screen and (max-width: 360px) {
+    .logo{
+        padding-left: 0;
+        font-size: 19px;
+    }
+    .logo ul li{
+        margin-right: 2px;
+        font-size: 12px; 
+        padding-top: 10px;
+        padding-left: 10px;
+        margin-left: 35px;
+        display: inline-flex;
+        
+    }
+    .logo ul li a{
+        font-size: 8px;
+    }
+
+}
+
 .mid{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     width: cover;
@@ -193,7 +273,8 @@ a:is(:link, :active, :visited).active{
 .container{
     height: 95vh;
     position: relative;
-    width: cover; margin: 0 95px;
+    width: cover;
+    margin: 0 35px;
     background: black;
     color: white;
     text-align: center;
@@ -250,7 +331,7 @@ a:is(:link, :active, :visited).active{
     height: cover;
     width: cover;
     align-items: center;
-    margin: 0 80px;
+    margin: 0 25px;
     font-weight: 200;
     font-family: 'poppins',sans-serif;
 }
@@ -288,9 +369,17 @@ a:is(:link, :active, :visited).active{
     margin-left: 100px;
 }
 .share{
+    background: white;
+    margin-bottom: 0px;
+    float: left;
+}
+.share a{
+    padding-right: 30px;
+    display: inline;
     
-    padding-top: 30px;
-    margin-left: 700px;
+}
+.with{
+    font-size: 20px;
 }
 .ssh{
     margin-top: 30px;
@@ -306,9 +395,7 @@ a:is(:link, :active, :visited).active{
     margin-left: 15px;
     margin-top: 7px;
 }
-.catch{
-    color: red;
-}
+
 .head{
     margin-bottom: 10px;
     text-align: center;
@@ -320,24 +407,31 @@ a:is(:link, :active, :visited).active{
     
 }
 .one {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .two {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .three {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .four {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .five {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .six{
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .seven {
+    margin-left: 10px;
     margin-bottom: 16px;
 }
 .tip p{
