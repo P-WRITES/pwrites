@@ -297,7 +297,7 @@ a:is(:link, :active, :visited).active{
     padding: 15px;
     align-items: center;
     background: url(images/pexels-lil-artsy-3750768.jpg);
-    height: 90vh;
+    height: 100vh;
     color: white;
     font-size: 20px;
     font-family: 'poppins',sans-serif;
@@ -327,12 +327,12 @@ a:is(:link, :active, :visited).active{
     border-bottom: 2px solid red;
 }
 .str{
-    background: #aaa;
+    background: white;
     height: cover;
     width: cover;
     align-items: center;
     margin: 0 25px;
-    font-weight: 200;
+    font-weight: 400;
     font-family: 'poppins',sans-serif;
 }
 .story{
@@ -409,30 +409,37 @@ a:is(:link, :active, :visited).active{
 .one {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .two {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .three {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .four {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .five {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .six{
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .seven {
     margin-left: 10px;
     margin-bottom: 16px;
+    font-weight: 500;
 }
 .tip p{
     margin: 10px 10px;
