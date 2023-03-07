@@ -266,13 +266,14 @@ a:is(:link, :active, :visited).active{
     font-family: 'poppins'sans-serif;
 }
 .cnn{
-    height: 100vh;
+    height: cover;
     width: cover;
+    
 
     
 }
 .container{
-    height: 75em;
+    height: cover;
 
     width: cover;
     margin: 0 35px;
