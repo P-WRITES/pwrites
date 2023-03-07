@@ -350,6 +350,7 @@ a:is(:link, :active, :visited).active{
 .bn:hover{
     color: #aaa;
 }
+
 .copyright{
     height: 5hv;
     background: gray;
@@ -451,8 +452,10 @@ a:is(:link, :active, :visited).active{
     margin-top: 10px;
     color: aquamarine;
 }
+
 .tp{
     float: right;
     background: #aaa;
     width: cover;
+    margin-bottom: 30px;
 }
