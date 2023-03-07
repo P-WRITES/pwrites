@@ -266,12 +266,12 @@ a:is(:link, :active, :visited).active{
     font-family: 'poppins'sans-serif;
 }
 .cnn{
-    height: 95vh;
+    height: cover;
     width: cover;
     background: url(images/3334896.jpg);
 }
 .container{
-    height: 95vh;
+    height: cover;
     position: relative;
     width: cover;
     margin: 0 35px;
