@@ -403,7 +403,7 @@ a:is(:link, :active, :visited).active{
 .head{
     margin-bottom: 10px;
     text-align: center;
-    color: aqua;
+    color: red;
     font-size: 20px;
     font-weight: 300;
     font-family: 'poppins',sans-serif;
