@@ -180,7 +180,7 @@ a:is(:link, :active, :visited).active{
 }
 
 .mid{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background: url(images/wallpaper-download-4-610x343.jpg);
     width: cover;
     position: relative;
     height: auto;
@@ -445,6 +445,21 @@ a:is(:link, :active, :visited).active{
     margin-bottom: 16px;
     font-weight: 500;
 }
+.eight {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.nine {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+.ten {
+    margin-left: 10px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
 .tip p{
     margin: 10px 10px;
     font-weight: 300;
@@ -453,7 +468,7 @@ a:is(:link, :active, :visited).active{
 .tip h3{
     font-weight: 300;
     margin-top: 10px;
-    color: aquamarine;
+    color: red;
 }
 
 .tp{
